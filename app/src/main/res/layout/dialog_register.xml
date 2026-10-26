@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F8F8F4">
+
+    <!-- כותרת -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="הרשמה ל-READYFIT"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#556B2F"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+
+    <!-- אימייל -->
+    <EditText
+        android:id="@+id/registerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="אימייל"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+
+    <!-- סיסמה -->
+    <EditText
+        android:id="@+id/registerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="סיסמה"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+
+    <!-- אימות סיסמה -->
+    <EditText
+        android:id="@+id/registerConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="אימות סיסמה"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+
+    <!-- כפתור הרשמה -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="הרשמה"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#556B2F"
+        android:layout_marginBottom="8dp" />
+
+
+    <!-- כפתור ביטול -->
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="ביטול"
+        android:textSize="16sp"
+        android:textColor="#556B2F"
+        android:backgroundTint="#E8E8E2" />
+
+</LinearLayout>

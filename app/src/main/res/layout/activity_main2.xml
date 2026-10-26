@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F0"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="READYFIT"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#556B2F"
+            android:gravity="center"
+            android:letterSpacing="0.15"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="הנתונים שלי"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="מלא את הנתונים כדי שנוכל להתאים לך את האימון"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:layout_marginBottom="35dp" />
+
+
+        <!-- גיל -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="גיל"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#333333" />
+
+        <EditText
+            android:id="@+id/editAge"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="לדוגמה 17"
+            android:inputType="number"
+            android:layout_marginBottom="20dp" />
+
+
+        <!-- משקל -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="משקל בק״ג"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#333333" />
+
+        <EditText
+            android:id="@+id/editWeight"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="לדוגמה 65"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="20dp" />
+
+
+        <!-- גובה -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="גובה בס״מ"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#333333" />
+
+        <EditText
+            android:id="@+id/editHeight"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="לדוגמה 175"
+            android:inputType="number"
+            android:layout_marginBottom="20dp" />
+
+
+        <!-- זמן 2 ק"מ -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="זמן ריצת 2 ק״מ"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#333333" />
+
+        <EditText
+            android:id="@+id/editRunTime"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="לדוגמה 8:30"
+            android:inputType="text"
+            android:layout_marginBottom="35dp" />
+
+
+        <!-- המשך -->
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="המשך לבחירת יחידה"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#556B2F"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>

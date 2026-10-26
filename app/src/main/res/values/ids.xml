@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cardShayetet" type="id" />
+    <item name="cardMatkal" type="id" />
+    <item name="cardShaldag" type="id" />
+    <item name="cardCommando" type="id" />
+    <item name="txtSelectedUnit" type="id" />
+</resources>

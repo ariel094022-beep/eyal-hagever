@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "520095135721",
+    "project_id": "readyfit-17584",
+    "storage_bucket": "readyfit-17584.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520095135721:android:441ab4644459bd49697d78",
+        "android_client_info": {
+          "package_name": "com.example.readyfit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDZIstLU-VZmuKbNzqg1NP5Ew4__RJAq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

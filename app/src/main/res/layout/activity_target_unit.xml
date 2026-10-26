@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151713"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="READYFIT"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#8FA653"
+            android:gravity="center"
+            android:letterSpacing="0.15"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="בחר את היעד שלך"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="לאיזו יחידה אתה מתכונן?"
+            android:textSize="16sp"
+            android:textColor="#AAAAAA"
+            android:gravity="center"
+            android:layout_marginBottom="35dp" />
+
+
+        <!-- שייטת 13 -->
+
+        <TextView
+            android:id="@+id/cardShayetet"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="שייטת 13\nים • סיבולת • כוח"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:padding="22dp"
+            android:background="#343832"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="15dp" />
+
+
+        <!-- סיירת מטכ"ל -->
+
+        <TextView
+            android:id="@+id/cardMatkal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="סיירת מטכ״ל\nריצה • סיבולת • מאמץ"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:padding="22dp"
+            android:background="#343832"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="15dp" />
+
+
+        <!-- שלדג -->
+
+        <TextView
+            android:id="@+id/cardShaldag"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="שלדג\nמהירות • כוח • סיבולת"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:padding="22dp"
+            android:background="#343832"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="15dp" />
+
+
+        <!-- חטיבת הקומנדו -->
+
+        <TextView
+            android:id="@+id/cardCommando"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="חטיבת הקומנדו\nכוח • זריזות • סיבולת"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:padding="22dp"
+            android:background="#343832"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="25dp" />
+
+
+        <!-- מציג מה נבחר -->
+
+        <TextView
+            android:id="@+id/txtSelectedUnit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="בחר אחת מהיחידות"
+            android:textColor="#9BB75A"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+
+        <!-- כפתור מעבר למסך הבית -->
+
+        <Button
+            android:id="@+id/btnContinueHome"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="המשך לתוכנית שלי"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#667A38"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151713"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="READYFIT"
+            android:textColor="#8FA653"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:letterSpacing="0.15"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="הגדרות ופרופיל"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="30dp" />
+
+        <!-- גיל -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="גיל"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editSettingsAge"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="גיל"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#777777"
+            android:backgroundTint="#8FA653"
+            android:layout_marginBottom="20dp" />
+
+        <!-- משקל -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="משקל בק״ג"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editSettingsWeight"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="משקל"
+            android:inputType="numberDecimal"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#777777"
+            android:backgroundTint="#8FA653"
+            android:layout_marginBottom="20dp" />
+
+        <!-- גובה -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="גובה בס״מ"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editSettingsHeight"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="גובה"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#777777"
+            android:backgroundTint="#8FA653"
+            android:layout_marginBottom="20dp" />
+
+        <!-- זמן 2 ק"מ -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="זמן ריצת 2 ק״מ"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editSettingsRunTime"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="לדוגמה 8:30"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#777777"
+            android:backgroundTint="#8FA653"
+            android:layout_marginBottom="25dp" />
+
+        <!-- יחידת יעד -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="יחידת יעד"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp" />
+
+        <Spinner
+            android:id="@+id/spinnerTargetUnit"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="#8FA653"
+            android:layout_marginBottom="30dp" />
+
+        <!-- שמירת שינויים -->
+
+        <Button
+            android:id="@+id/btnSaveSettings"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="שמור שינויים"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:backgroundTint="#667A38"
+            android:layout_marginBottom="12dp" />
+
+        <!-- חזרה -->
+
+        <Button
+            android:id="@+id/btnBackHome"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="חזרה למסך הבית"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:backgroundTint="#343832"
+            android:layout_marginBottom="12dp" />
+
+        <!-- התנתקות -->
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="התנתקות"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#7A3838"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>
